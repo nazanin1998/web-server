@@ -19,6 +19,7 @@ app.get('/about', function(req, res){
   res.send('You know every thing about us!');
 });
 
+//baraye estefade az html
 app.use(express.static(__dirname+'/public'));
 
 app.listen(port, function(){
